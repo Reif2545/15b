@@ -1,0 +1,54 @@
+<!-- index.html wireframe for stpls.org -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>STPLS Wireframe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<main class="main">
+
+  <div class="topbar">Top Utility Bar (Hours | Contact | Account)</div>
+
+  <div class="header">STPLS Logo + Search Bar + Quick Buttons</div>
+
+  <div class="nav">Primary Navigation (Services | Catalog | Events | About | etc.)</div>
+
+  <div class="hero">Large Homepage Hero Slider / Featured Announcements</div>
+
+  <div class="quickbuttons">Quick Action Buttons (Library Card, Locations, Hours, Calendar, etc.)</div>
+
+  <div class="featuredprograms">Featured Programs Section (3–4 Highlight Cards)</div>
+
+  <div class="events">Events List / Carousel</div>
+
+  <div class="cardsgrid">Informational Card Grid (e.g., Research, Digital Library, Youth Services)</div>
+
+  <div class="news">Latest News Articles</div>
+
+  <!-- Hide Offers Button -->
+  <button id="hidebutton" onclick="hideOffers()">Hide Offers</button>
+
+  <!-- Special Offers Section -->
+  <div class="newsletter" id="specialoffers">
+    Newsletter Signup Banner / Special Offers
+  </div>
+
+  <div class="footer">Footer (Navigation | Contact | Social Media)</div>
+
+</main>
+
+<!-- JavaScript -->
+<script>
+  function hideOffers() {
+    var x = document.getElementById("specialoffers");
+    var y = document.getElementById("hidebutton");
+
+    x.style.display = "none";
+    y.style.display = "none";
+  }
+</script>
+
+</body>
+</html>
